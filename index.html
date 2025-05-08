@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HealthTrack - Kalkulator Gizi Berbasis Kalkulus</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-calculator me-2"></i>HealthTrack
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">
+                <i class="fas fa-home me-1"></i>Beranda
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kalkulator-dewasa.html">
+                <i class="fas fa-user me-1"></i>Kalkulator Dewasa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kalkulator-anak.html">
+                <i class="fas fa-child me-1"></i>Kalkulator Anak
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="materi.html">
+                <i class="fas fa-book me-1"></i>Materi Kalkulus
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="anggota.html">
+                <i class="fas fa-users me-1"></i>Anggota
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="display-4">HealthTrack</h1>
+          <p class="lead">Kalkulator Gizi Berbasis Kalkulus</p>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-calculator fa-3x mb-3"></i>
+              <h3 class="card-title">Kalkulator Gizi Dewasa</h3>
+              <p class="card-text">
+                Hitung kebutuhan gizi Anda dengan mempertimbangkan faktor-faktor
+                seperti BMR, IMT, dan tingkat aktivitas.
+              </p>
+              <a href="kalkulator-dewasa.html" class="btn btn-success">
+                <i class="fas fa-arrow-right"></i> Mulai Hitung
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-child fa-3x mb-3"></i>
+              <h3 class="card-title">Kalkulator Gizi Anak</h3>
+              <p class="card-text">
+                Hitung kebutuhan gizi anak Anda dengan mempertimbangkan usia,
+                berat badan, dan tinggi badan.
+              </p>
+              <a href="kalkulator-anak.html" class="btn btn-success">
+                <i class="fas fa-arrow-right"></i> Mulai Hitung
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="text-center mb-4">Tentang HealthTrack</h2>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4>
+                    <i class="fas fa-calculator"></i> Perhitungan Berbasis
+                    Kalkulus
+                  </h4>
+                  <p>
+                    HealthTrack menggunakan konsep-konsep dasar kalkulus seperti
+                    turunan dan integral dalam perhitungan kebutuhan gizi. Ini
+                    memungkinkan perhitungan yang lebih akurat dan dinamis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-light mt-5 py-3">
+      <div class="container text-center">
+        <p>&copy; 2024 HealthTrack - Kalkulator Gizi Berbasis Kalkulus</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
